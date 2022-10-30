@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".act3"
+    android:padding="15dp"
+    android:background="#EFEFEF"
+
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/FrameFragment"
+        android:layout_above="@+id/card"
+        >
+    </FrameLayout>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        app:cardCornerRadius="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        app:cardBackgroundColor="#FF6787"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            >
+
+            <ImageView
+                android:id="@+id/home"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic__844470_home_house_icon"
+                app:tint="@color/white"
+                >
+
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/favorite"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic__11755_heart_icon"
+                app:tint="@color/black"
+                android:layout_marginLeft="30dp"
+
+                >
+
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/order"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic__544843_shop_business_delivery_trolley_comerce_icon"
+                app:tint="@color/black"
+                android:layout_marginLeft="30dp"
+
+                >
+
+            </ImageView>
+            <ImageView
+                android:id="@+id/profil"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic__454573_avatar_line_media_profil_profile_icon"
+                app:tint="@color/black"
+                android:layout_marginLeft="30dp"
+
+                >
+
+            </ImageView>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>

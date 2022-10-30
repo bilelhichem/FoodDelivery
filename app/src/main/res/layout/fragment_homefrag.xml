@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".homefrag"
+    android:padding="3dp">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1dp"
+        android:fontFamily="@font/abril_fatface"
+        android:text="Delivery Food"
+        android:textColor="@color/gris"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/chosethefood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_marginTop="17dp"
+        android:fontFamily="@font/abril_fatface"
+        android:text="Choose the \nFood you love"
+        android:textColor="@color/gris"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/chosethefood"
+        android:background="@drawable/myback1"
+        >
+    </androidx.appcompat.widget.SearchView>
+
+
+    <TextView
+        android:id="@+id/teccate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/search"
+        android:layout_marginTop="30dp"
+        android:text="Categories"
+        android:textColor="@color/gris"
+        android:textSize="15dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <HorizontalScrollView
+        android:id="@+id/hor"
+        android:scrollbars="none"
+        android:layout_below="@id/teccate"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:padding="2dp"
+            android:orientation="horizontal" >
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/car1"
+                android:layout_width="118dp"
+                android:layout_height="90dp"
+                app:cardCornerRadius="40dp"
+                >
+                <LinearLayout
+                    android:id="@+id/lin1"
+                    android:background="@drawable/myback4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:id="@+id/pic1"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/ic_hamburger"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="37dp"
+                        app:tint="@color/vert">
+
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/tec1"
+                        android:textColor="@color/vert"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Burger"
+                        android:layout_marginLeft="36dp">
+
+                    </TextView>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/car2"
+                android:layout_width="118dp"
+                android:layout_height="90dp"
+                android:layout_marginLeft="10dp"
+                app:cardCornerRadius="40dp"
+                android:elevation="12dp"
+                >
+                <LinearLayout
+                    android:background="@drawable/myback5"
+                    android:id="@+id/lin2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:id="@+id/pic2"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/ic_sandwich"
+                        android:layout_marginTop="17dp"
+                        android:layout_marginLeft="37dp"
+                        >
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/tec2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sandwich"
+                        android:layout_marginLeft="29dp">
+
+
+                    </TextView>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/car3"
+                android:layout_width="118dp"
+                android:layout_height="90dp"
+                android:layout_marginLeft="10dp"
+                app:cardCornerRadius="40dp"
+                android:elevation="12dp"
+                >
+                <LinearLayout
+                    android:id="@+id/lin3"
+                    android:background="@drawable/myback5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:id="@+id/pic3"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/ic__165505_pizza_food_icon"
+                        android:layout_marginTop="17dp"
+                        android:layout_marginLeft="37dp"
+                        >
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/tec3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pizza"
+                        android:layout_marginLeft="39dp">
+
+                    </TextView>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/car4"
+                android:layout_width="118dp"
+                android:layout_height="90dp"
+                android:layout_marginLeft="10dp"
+                app:cardCornerRadius="40dp"
+                android:elevation="12dp"
+                >
+                <LinearLayout
+                    android:id="@+id/lin4"
+                    android:background="@drawable/myback5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:id="@+id/pic4"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/ic__08996_chips_fast_food_food_french_fries_fries_icon"
+                        android:layout_marginTop="17dp"
+                        android:layout_marginLeft="37dp"
+                        >
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/tec4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Fries"
+                        android:layout_marginLeft="39dp">
+
+                    </TextView>
+/
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+    <TextView
+        android:id="@+id/chosecat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hor"
+        android:layout_marginTop="10dp"
+        android:text="Categories"
+        android:textColor="@color/gris"
+        android:textSize="15dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/prodlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chosecat"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        ></androidx.recyclerview.widget.RecyclerView>
+
+
+    ]
+
+
+</RelativeLayout>

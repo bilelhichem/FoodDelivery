@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "609581173797",
+    "firebase_url": "https://vetmentapp-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "vetmentapp",
+    "storage_bucket": "vetmentapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:609581173797:android:5b5f13f3768a5ee15443cc",
+        "android_client_info": {
+          "package_name": "com.example.adminvet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "609581173797-tei03dt1jp4vf0749ghgc1ng04e8rg9k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNXBp0up3k616LFEXal1MX29_eY9YvBes"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "609581173797-tei03dt1jp4vf0749ghgc1ng04e8rg9k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:609581173797:android:99cae5d0cceb528c5443cc",
+        "android_client_info": {
+          "package_name": "com.example.deliveryapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "609581173797-tei03dt1jp4vf0749ghgc1ng04e8rg9k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNXBp0up3k616LFEXal1MX29_eY9YvBes"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "609581173797-tei03dt1jp4vf0749ghgc1ng04e8rg9k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:609581173797:android:a49bc6202d78ed365443cc",
+        "android_client_info": {
+          "package_name": "com.example.fooddelivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "609581173797-tei03dt1jp4vf0749ghgc1ng04e8rg9k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNXBp0up3k616LFEXal1MX29_eY9YvBes"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "609581173797-tei03dt1jp4vf0749ghgc1ng04e8rg9k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
